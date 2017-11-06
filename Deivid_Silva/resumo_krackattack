@@ -1,0 +1,13 @@
+O WPA2 é um protocolo de segurança de redes Wi-fi, é considerado o mais seguro atualmente, e a grande maioria das redes sem fio do planeta,
+funcionam com o WPA2 como base de segurança. Porém, acerca de um mês, uma falha no protocolo foi encontrada, essa falha permitiria a 
+interceptação do tráfego dos dispositivos conectados à rede, possibilitando a injeção de conteúdo malicioso, mesmo em sites protegidos 
+e redes com senhas fortes.
+
+O pesquisador responsável pela descoberta é o Mathy Vanhoef, do imec-DistriNet e da Universidade Católica de Leuven, na Bélgica.
+Após a liberação do código e da teoria utilizada por ele para desvendar a falha, uma equipe de pesquisadores realizou testes nas mais 
+diversas plataformas e sistemas operacionais para confirmar o problema.
+
+Denominado de KRACK (Key Reinstallation Attacks), o conceito do ataque foi demonstrado pelo time de pesquisadores e funciona contra 
+todos os roteadores modernos com senha. A vulnerabilidade pode ser utilizada para roubar dados sensíveis, como números de cartões de 
+crédito, senhas, mensagens, emails e fotos. Além disso, por meio da injeção de conteúdo malicioso, seria possível espalhar vírus e 
+malware’s.
