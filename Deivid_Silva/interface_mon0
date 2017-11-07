@@ -1,5 +1,0 @@
-sudo iw dev $int interface add mon0 type monitor
-
-$int é o "wls2" e talz ...
-
-sudo ifconfig mon0 up
