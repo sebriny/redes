@@ -1,4 +1,9 @@
-Questão 1: *
+Aluna: Rafael Fernando dos Santos Oliveira
+TI: 441
+
+Questão 1: É uma plataforma/sitema de controle de versão desenvolvido por Linus Torvalds, onde é 
+  possível trabalhar com diretorios fazendo alterações no projeto, não necessariamente em seu codigo principal (master).
+  Promove a interação de codigos e outros arquivos entre desenvolvedores do mundo todo.
 
 Questão 2: Após a clonagem, ao executar o ls, o meu repositório também é listado, dentre os conteúdos do diretório. E
   ao após executar o comando cd (acessar diretorio), ao executar pw, o link mostrado é do meu repositório local.
