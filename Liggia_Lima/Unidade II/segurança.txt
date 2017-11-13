@@ -1,0 +1,14 @@
+Estudante: Liggia Santos Lima
+Turma: TI441
+
+1.1-
+A prática feita nos fez pensar sobre como a segurança das redes é limitada, visto que em breves passos foi possível detectar a senha do AP. O primeiro passo foi criar uma nova interface para simular a operação. Logo após, identificamos o MAC do celular e o SSID do AP em que o mesmo estava conectado e fizemos um arquivo de captura onde o handshak foi visível. Criamos um arquivo de senha para que o aircrack fizesse testes com as senhas do arquivo e e identificasse qual a senha correspondente à do AP.
+
+1.2-
+O cliente, no caso o meu celular, manda uma primeira mensagem para o AP com um código correspondendo a senha do wpa2, mas que não é a senha. O AP responde a mensagem aceitando a conexão com um outro código que também corresponde a senha. O celular responde novamente validando a senha e enviando dados. A conexão com o AP é estabelecida totalizando quatro mensagens, que em resumo é para a validação da senha.
+
+1.3-
+Para forçar a desconexão do celular, é necessário desautentica-lo do AP. Isso acontece usando um comando que fará com que o AP envie uma mensagem para o celular desconectando-o do AP para que o cliente seja forçado a se re-autenticar e gerar pacotes de autenticação handshake.
+
+1.4-
+A solução mais viável é inserir uma boa senha, com padrões e caracteres diferentes. Se a senha não estiver nos arquivos de senha, não tem como descobri-la. 
