@@ -1,0 +1,22 @@
+Q1.1)
+Nessa prática, precisariamos capturar os dados que trafegavam nas redes wifi que passavam pelo laboratório, e depois filtrar
+o AP que quiséssemos. Então criamos uma interface tipo monitor, a "mon0", que, sendo executada pelo airodump-ng, coletava todo 
+o tráfego do ambiente, depois, com o auxílio do celular, selecionamos o MAC do AP que escolhemos.
+
+Apartir daí, poderiamos filtrar o AP que escolhemos e capturar o "four-way handshake" ao conectar nosso celular ao AP propriamente dito.
+
+Para gravar os dados capturados em um arquivo, utilizamos o comando: "airodump-ng --bssid $MAC-DO-AP$ mon0 -w meu-arquivo-de-captura"
+Sendo o "meu-arquivo-de-captura" o arquivo que conteria os dados dos tráfegos. Após isso, só precisariamos usar o aircrack-ng, com
+o arquivo "meuarquivodesenha.psk", para, por um ataque de força bruta, descobrir a senha do AP que selecionamos. (A senha correta
+foi propositalmente inserida no "meuarquivodesenha.psk", pois o objetivo era apenas demonstrativo).
+
+Q1.2)
+Ao realizar o filtro, percebemos a captura de 2 mensagens de protocolo EAPOL, seguindo o conceito do protocolo IEEE 802.11i, a  conexão
+com uma rede wireless passa 4 mensagens iniciais denominadas de "four-way handshake", elas servem para realizar a autenticação da senha
+da rede.
+
+
+Q1.3)
+
+Q1.4)
+Uma criptografia das 2 primeiras mensagens do "four-way handshake" poderia dar mais segurança aos dados trafegados.
