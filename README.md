@@ -10,6 +10,6 @@ Unidade I:
 ~~**Atividade 05 - mininet-wifi.pdf (entrega 17/10)**~~    
 
 Unidade II:  
-**Atividade 01**: seguranca.pdf (entrega 07/11)
-
+~~**Atividade 01**: seguranca.pdf (entrega 07/11)~~   
+**Atividade 02**: seguranca2.pdf (entrega 13/11)~~    
 
