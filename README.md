@@ -1,4 +1,4 @@
-Unidade I:
+Unidade I:  
 ~~**Prática: pratica01** (entrega 15/08)~~      
 ~~**Atividade 01: redes2** - atv01 (entrega 22/08)~~           
 ~~**Atividade 02 (entrega 05/09)**: Considere o arquivo wireshark.pcapng para responder às perguntas abaixo:     
@@ -11,5 +11,5 @@ Unidade I:
 
 Unidade II:  
 ~~**Atividade 01**: seguranca.pdf (entrega 07/11)~~   
-**Atividade 02**: seguranca2.pdf (entrega 13/11)~~    
+**Atividade 02**: seguranca2.pdf (entrega 13/11)    
 
