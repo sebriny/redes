@@ -1,0 +1,7 @@
+2.1
+O ataque visa interceptar o envio e recpção de dados, invadindo o computador da vitima, o enviando pacotes de dados, 
+assim a transformando em gateway. Nisto o ataque direciona os dados para leitura e filtração, sem atrapalhar o trafégo 
+ao gateway verdadeiro, assim transformando o ataque endiscreto.
+
+2.2
+Uma ferramenta para impedir o ataque é o Etherwall.
